@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
   // Modules
 import { PagesModule } from './pages/pages.module';
 
+  // Components
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
@@ -19,8 +20,8 @@ import { RegisterComponent } from './login/register.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    PagesModule
+    PagesModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
