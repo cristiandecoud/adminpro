@@ -14,9 +14,9 @@ import { PagesRoutingModule } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 
-// import { ChartsModule } from 'ng2-charts';
 import { ChartsModule } from 'ng2-charts';
 import { CommonModule } from '@angular/common';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -26,7 +26,8 @@ import { CommonModule } from '@angular/common';
     ProgressComponent,
     Graphics1Component,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
